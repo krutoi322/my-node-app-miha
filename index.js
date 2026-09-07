@@ -1,7 +1,7 @@
 const http = require('http');
 
 function PI() {
-    const z = 10n ** 25n;
+    const s = 10n ** 25n;
     function atan(x) {
         x = BigInt(x);
         let sum = 0n;
