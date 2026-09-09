@@ -1,4 +1,33 @@
 const http = require('http');
+const EventEmitter = require('events');
+const fs = require('fs');
+const { setupLogger } = require('./logger');
+class AppServer extends EventEmitter {
+    start(port) {
+        this.server = http.createServer((req, res) => {
+            setTimeout(() => {
+                this.emit('z', req.url, req.method);
+            }, 2000);
+
+
+            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+            res.write('<h1>Семенюк Михаил</h1>');
+            res.write('478<br>');
+            res.end(`Число PI: ${PI()}`);
+        });
+
+        this.server.listen(port, () => {
+            this.emit('ServerWithPortCreated', port);
+        });
+    }
+    stop() {
+        setTimeout(() => {
+            this.server.close(() => {
+                this.emit('serverclosed');
+            });
+        }, 20000);
+    }
+}
 
 function PI() {
     const s = 10n ** 25n;
@@ -20,11 +49,18 @@ function PI() {
     const p = 16n * atan(5) - 4n * atan(239);
     return `${p / s}.${(p % s).toString().padStart(25, '0').slice(0, 17)}`;
 }
-const server = http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end(`<h1>Семенюк Михаил</h1><p>Группа: 478</p><p>Число π: ${PI()}</p>`);
-});
-const PORT = 3000;
-server.listen(PORT, () => {
-    console.log(`Сервер запущен на http://localhost:${PORT}`);
-});
+    const server = new AppServer();
+    setupLogger(server);
+    server.once('ServerWithPortCreated', (port) => {
+        console.log(`Сервер запущен на порту: ${port}`);
+    });
+    server.once('serverclosed', () => {
+        console.log("сервер остановлен");
+        process.exit(0); 
+    });
+    server.on('z', (url, method) => {
+        console.log(`${url} ${method}`);
+        console.log("Hello from Event-Driven Server");
+    });
+    server.start(3000)
+    server.stop()
