@@ -6,7 +6,7 @@ class AppServer extends EventEmitter {
     start(port) {
         this.server = http.createServer((req, res) => {
             setTimeout(() => {
-                this.emit('z', req.url, req.method);
+                this.emit('request:received', req.url, req.method);
             }, 2000);
 
 
@@ -17,13 +17,13 @@ class AppServer extends EventEmitter {
         });
 
         this.server.listen(port, () => {
-            this.emit('ServerWithPortCreated', port);
+            this.emit('server:started', port);
         });
     }
     stop() {
         setTimeout(() => {
             this.server.close(() => {
-                this.emit('serverclosed');
+                this.emit('server:closed');
             });
         }, 20000);
     }
@@ -51,16 +51,16 @@ function PI() {
 }
     const server = new AppServer();
     setupLogger(server);
-    server.once('ServerWithPortCreated', (port) => {
+    server.once('server:started', (port) => {
         console.log(`Сервер запущен на порту: ${port}`);
     });
-    server.once('serverclosed', () => {
+    server.once('server:closed', () => {
         console.log("сервер остановлен");
         process.exit(0); 
     });
-    server.on('z', (url, method) => {
+    server.on('request:received', (url, method) => {
         console.log(`${url} ${method}`);
         console.log("Hello from Event-Driven Server");
     });
-    server.start(3000)
+    server.start(8090)
     server.stop()
