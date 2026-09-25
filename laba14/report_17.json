@@ -1,0 +1,80 @@
+{
+  "directory": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17",
+  "folders": 11,
+  "files": 5,
+  "totalSize": 144,
+  "totalSizeFormatted": "144 \u0431\u0430\u0439\u0442",
+  "extensions": [
+    {
+      "extension": ".txt",
+      "count": 5,
+      "size": 144,
+      "sizeFormatted": "144 \u0431\u0430\u0439\u0442"
+    }
+  ],
+  "top5Largest": [
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\components\\info.txt",
+      "size": 41,
+      "sizeFormatted": "41 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\modules\\info.txt",
+      "size": 33,
+      "sizeFormatted": "33 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\data\\results\\info.txt",
+      "size": 29,
+      "sizeFormatted": "29 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\data\\input\\info.txt",
+      "size": 27,
+      "sizeFormatted": "27 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\utils\\info.txt",
+      "size": 14,
+      "sizeFormatted": "14 \u0431\u0430\u0439\u0442"
+    }
+  ],
+  "top5Smallest": [
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\utils\\info.txt",
+      "size": 14,
+      "sizeFormatted": "14 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\data\\input\\info.txt",
+      "size": 27,
+      "sizeFormatted": "27 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\data\\results\\info.txt",
+      "size": 29,
+      "sizeFormatted": "29 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\modules\\info.txt",
+      "size": 33,
+      "sizeFormatted": "33 \u0431\u0430\u0439\u0442"
+    },
+    {
+      "name": "info.txt",
+      "path": "C:\\Users\\mihaz\\my-node-app\\laba14\\project_17\\src\\components\\info.txt",
+      "size": 41,
+      "sizeFormatted": "41 \u0431\u0430\u0439\u0442"
+    }
+  ],
+  "variantFiles": []
+}
