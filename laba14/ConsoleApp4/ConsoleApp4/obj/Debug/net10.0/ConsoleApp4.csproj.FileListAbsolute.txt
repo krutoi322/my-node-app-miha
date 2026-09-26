@@ -1,0 +1,15 @@
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\bin\Debug\net10.0\ConsoleApp4.exe
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\bin\Debug\net10.0\ConsoleApp4.deps.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\bin\Debug\net10.0\ConsoleApp4.runtimeconfig.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\bin\Debug\net10.0\ConsoleApp4.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\bin\Debug\net10.0\ConsoleApp4.pdb
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.AssemblyInfoInputs.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.AssemblyInfo.cs
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.sourcelink.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\refint\ConsoleApp4.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.pdb
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ConsoleApp4.genruntimeconfig.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp4\ConsoleApp4\obj\Debug\net10.0\ref\ConsoleApp4.dll

@@ -1,0 +1,15 @@
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\bin\Debug\net10.0\ConsoleApp3.exe
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\bin\Debug\net10.0\ConsoleApp3.deps.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\bin\Debug\net10.0\ConsoleApp3.runtimeconfig.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\bin\Debug\net10.0\ConsoleApp3.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\bin\Debug\net10.0\ConsoleApp3.pdb
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.AssemblyInfo.cs
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.sourcelink.json
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\refint\ConsoleApp3.dll
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.pdb
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ConsoleApp3.genruntimeconfig.cache
+C:\Users\mihaz\my-node-app\laba14\ConsoleApp3\ConsoleApp3\obj\Debug\net10.0\ref\ConsoleApp3.dll
