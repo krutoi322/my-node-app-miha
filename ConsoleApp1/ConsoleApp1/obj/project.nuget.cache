@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VfgqFQA3mwk=",
+  "success": true,
+  "projectFilePath": "D:\\my-node-app\\laba18\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SemMi\\.nuget\\packages\\system.codedom\\11.0.0\\system.codedom.11.0.0.nupkg.sha512",
+    "C:\\Users\\SemMi\\.nuget\\packages\\system.management\\11.0.0\\system.management.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
