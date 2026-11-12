@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="11.0.0" />
+  </ItemGroup>
+
+>>>>>>> 4e2f60c (system, resources, network)
 </Project>
